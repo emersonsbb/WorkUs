@@ -1,0 +1,590 @@
+/* Seletor da pagina HTMl */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Configurações do cabeçalho */
+header {
+  padding-top: 20px;
+  display: inline-block;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 4px 20px -4px #ababab;
+  padding-bottom: 20px;
+}
+
+/* header:hover {
+  header só aparecer sombra quando rolar scroll
+} */
+/* anchor dos itens do menu */
+.page_link {
+  text-decoration: none;
+  color: #da5f17;
+  border-bottom: 2px solid rgba(0, 0, 0, 0);
+  border-radius: 30%;
+  transition: border-radius 0.3s, color 0.3s;
+}
+
+/* hover dos itens do menu */
+.page_link:hover {
+  padding-bottom: 5px;
+  border-bottom: 2px solid #da5f17;
+  border-radius: 10%;
+  color: #da5f17;
+}
+
+/* logo do site */
+.logo img {
+  width: 195px;
+  height: 43px;
+  background-repeat: no-repeat;
+  float: left;
+  margin-left: 45px;
+  cursor: pointer;
+}
+
+/* caixa dos itens do menu */
+.menu {
+  padding-top: 11px;
+  position: relative;
+  display: flex;
+  float: right;
+  width: 50%;
+  margin-right: -24px;
+}
+
+/* lista pai dos itens do menu */
+.menu ul {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+/* itens da lista(itens) */
+.menu li {
+  display: inline-block;
+  width: 32%;
+}
+
+/* remoção da decoração da lista */
+.menu li a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* parametros da primeira sessão */
+.section_01 {
+  display: inline-block;
+  width: 100%;
+  margin-top: 110px;
+}
+
+/* div do texto da primeira sessão */
+.art_01 {
+  width: 40%;
+  margin-right: 0px;
+  float: left;
+  margin-left: 45px;
+}
+
+/* configuração de texto e espaçamento */
+.art_01 article h1 {
+  font-size: 52px;
+  padding-left: 31px;
+}
+
+/* posicionamento botão da sessao 01 */
+.art_01 input[type="button"] {
+  padding: 6px 60px 6px 60px;
+  border-radius: 10px;
+  border: solid 1px #da5f17;
+  font-size: 15px;
+}
+
+/* dimensionamento do botão da sessao 01 */
+.art_01 input {
+  cursor: pointer;
+  margin: 60px 31px;
+  color: white;
+  background-color: #da5f17;
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.4);
+}
+
+/* dimensionamento e posicionamento da imagem sessao 01 */
+.artImg_01 img {
+  width: 46%;
+  height: 425px;
+  background-repeat: no-repeat;
+  float: right;
+}
+
+.section_02 {
+  width: 100%;
+  display: inline-block;
+}
+
+/* dimensionamento e posicionamento da imagem sessao 02 */
+.section_02 .artImg_02 img {
+  width: 55%;
+  background-repeat: no-repeat;
+  height: 536px;
+  float: left;
+}
+
+/* configuração de texto e espaçamento sessão 02 */
+.section_02 .art_02 {
+  display: block;
+  padding-left: 10%;
+  margin-top: 91px;
+  width: 45%;
+  float: left;
+}
+
+/* título da sessão 02 */
+.art_02 h1 {
+  color: #da5f17;
+  width: 85%;
+  font-size: 42px;
+}
+
+/* texto da sessão 02 */
+.art_02 p {
+  font-weight: 300;
+  margin-top: 50px;
+  width: 80%;
+  font-size: 21px;
+}
+
+/* dimensionamento da div(sublinhad0) da sessão 02 */
+.traco_s02 {
+  border-radius: 10px;
+  background-color: #da5f17;
+  width: 95px;
+  height: 4px;
+}
+
+/* dimensionamento da sessão 03 */
+.section_03 {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  margin: 50px 0 30px 0;
+  justify-content: space-between;
+}
+
+/* dimensionamento de imagem á esquerda */
+.artImg_03L img {
+  background-size: cover;
+  width: 352.15px;
+  height: 380.49px;
+}
+/* dimensionamento da div central */
+.art_03 {
+  width: 39%;
+  float: none;
+}
+/* configuração de título */
+.art_03 h1 {
+  color: #da5f17;
+  font-size: 42px;
+}
+/* dimensionamento da div(sublinhado) */
+.traco_s03 {
+  margin: 10px auto;
+  border-radius: 10px;
+  background-color: #da5f17;
+  width: 95px;
+  height: 4px;
+}
+/* configuração do parágrafo */
+.art_03 p {
+  margin-top: 55px;
+  font-weight: 300;
+  font-size: 21px;
+}
+
+/* dimensionamento de imagem á direita */
+.artImg_03R img {
+  background-size: cover;
+  width: 284.75px;
+  height: 450.36px;
+  margin-left: 67.39px;
+}
+/* posicionamento do botão */
+.art_03 input {
+  cursor: pointer;
+  margin: 55px 0 55px 0;
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.4);
+}
+/* formatação do botão */
+.art_03 input[type="button"] {
+  padding: 6px 60px 6px 60px;
+  background-color: #da5f17;
+  color: white;
+  border: solid 0px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.section_04 {
+  background-color: #da5f17;
+  width: 100%;
+  height: 490px;
+  display: flex;
+}
+
+.containerProd {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.prod {
+  margin: 0 auto;
+  display: inline-block;
+  width: 22%;
+  height: 354px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.imgProd1 img {
+  display: flex;
+  background-size: cover;
+  width: 123px;
+  height: 125px;
+  margin: 0 auto;
+}
+
+.imgProd2 img {
+  display: flex;
+  background-size: cover;
+  width: 123px;
+  height: 125px;
+  margin: 0 auto;
+}
+
+.imgProd3 img {
+  display: flex;
+  background-size: cover;
+  width: 123px;
+  height: 125px;
+  margin: 0 auto;
+}
+
+.imgProd4 img {
+  display: flex;
+  background-size: cover;
+  width: 123px;
+  height: 125px;
+  margin: 0 auto;
+}
+
+.tittleProd {
+  text-align: center;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.tracoProd {
+  width: 80%;
+  height: 5px;
+  background-color: #da5f17;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+
+/* por ter apenas uma linha, o titulo do 4º produto ficou com espaçamento diferente dos demais */
+.tittleProdX {
+  margin: 13px 0 26px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+/* por ter apenas uma linha, o traço do 4º produto ficou com espaçamento diferente dos demais */
+.tracoProdX {
+  width: 80%;
+  height: 5px;
+  background-color: #da5f17;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+
+.descProd {
+  width: 80%;
+  margin: 8px 10% 0 10%;
+  text-align: center;
+  font-size: 20px;
+}
+
+.section_05 {
+  height: auto;
+  width: 100%;
+  border-bottom: solid 1px #da5f17;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1%;
+}
+
+.artImg_05 img {
+  background-repeat: no-repeat;
+  backface-visibility: hidden;
+  /* retira residuo de imagem do topo*/
+  width: 95%;
+  height: 401px;
+  margin-left: 1%;
+}
+
+.content_05 {
+  width: 47%;
+  margin-left: 3%;
+}
+
+.content_05 h1 {
+  color: #da5f17;
+  font-size: 42px;
+  margin: 0px 0px 40px -25px;
+}
+
+.content_05 .avaliacao {
+  display: flex;
+  width: 466px;
+  height: 140px;
+  border: solid 2px #da5f17;
+  box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
+}
+
+.avaliacao {
+  display: inline;
+}
+
+.avaliacao .avImg img {
+  background-size: cover;
+  width: 117px;
+  height: 117px;
+  margin: 9px;
+}
+
+.avText {
+  width: 65%;
+}
+
+.avText h4 {
+  margin: 30px 0 0 15px;
+  color: #da5f17;
+}
+
+.avText p {
+  margin: 15px 0 0 15px;
+  margin-top: 10px;
+}
+
+section.rodape {
+  padding: 2%;
+  background-color: #da5f17;
+  color: white;
+}
+.rodapeInfo p {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+}
+/* estilo slide */
+
+/* cada item */
+.item {
+  display: flex;
+}
+
+.slick-next:before,
+.slick-prev:before {
+  color: #000 !important;
+}
+
+/* qualquer tamanho de celular */
+@media only screen and (max-width: 600px) {
+}
+
+/* TABLET */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* CSS */
+}
+
+@media screen and (max-width: 1024px) {
+  .menu {
+    float: right;
+    padding: 0;
+  }
+  .logo img {
+    margin-top: 10px;
+    float: left;
+    width: 285px;
+    height: 88px;
+  }
+  .menu ul {
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 11%;
+    padding-top: 12px;
+  }
+  .menu li {
+    background-color: #000;
+    border-radius: 30px;
+    margin: 2% 0 2% 0;
+    font-size: 7px;
+  }
+  .section_01 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .art_01 article h1 {
+    font-size: 52px;
+    padding: 0;
+  }
+  .art_01 {
+    width: 100%;
+    float: none;
+    text-align: center;
+    margin: 0px;
+  }
+  .artImg_01 {
+    display: none;
+  }
+  .art_01 input[type="button"] {
+    width: 40%;
+    padding: 2%;
+    font-size: 20px;
+  }
+  .section_02 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .art_02 {
+    width: 100%;
+    float: none;
+  }
+  .section_02 .art_02 {
+    width: 80%;
+    text-align: center;
+    float: none;
+  }
+  .section_02 .art_02 p {
+    width: 100%;
+    font-size: 30px;
+    font-weight: 300;
+  }
+  .section_02 .art_02 h1 {
+    width: 100%;
+    font-size: 50px;
+  }
+
+  .section_02 .art_02 {
+    padding: 0;
+  }
+  .section_02 .artImg_02 img {
+    width: 100%;
+  }
+  .traco_s02 {
+    display: none;
+  }
+  .traco_s03 {
+    display: none;
+  }
+  .art_03 {
+    width: 100%;
+    margin: 0 10% 0 10%;
+  }
+  .art_03 h1 {
+    font-size: 50px;
+  }
+  .art_03 p {
+    font-size: 30px;
+    font-weight: 300;
+  }
+  .artImg_03L {
+    display: none;
+  }
+  .artImg_03R {
+    display: none;
+  }
+  .art_03 input[type="button"] {
+    width: 40%;
+    padding: 2%;
+    font-size: 20px;
+  }
+
+  .section_04 {
+    background-color: #da5f17;
+    width: 100%;
+    height: 50%;
+    display: flex;
+  }
+
+  .containerProd {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .prod {
+    margin: 0 auto;
+    display: inline-block;
+    width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+  .descProd {
+    font-size: 30px;
+  }
+  .tittleProd {
+    font-size: 40px;
+  }
+  .tittleProdX {
+    font-size: 30px;
+  }
+
+  .section_05 {
+    display: flex;
+    justify-content: center;
+  }
+  .artImg_05 img {
+    display: none;
+  }
+  .content_05 {
+    float: none;
+    text-align: -webkit-center;
+    margin-bottom: 3%;
+  }
+  .content_05 h1 {
+    font-size: 50px;
+    white-space: nowrap;
+  }
+  .content_05 h4 {
+    margin-left: 0px;
+    font-size: 40px;
+  }
+  .content_05 p {
+    margin-left: 0px;
+    font-size: 30px;
+  }
+  .slick-slide img {
+    display: block;
+    width: 30%;
+  }
+  .rodapeInfo p {
+    font-size: 25px;
+  }
+}
